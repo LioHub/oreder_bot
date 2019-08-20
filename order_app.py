@@ -32,21 +32,21 @@ from dictionary import prices
 from flask import Flask, request
 
 # Testbot
-# token = '454102540:AAF7Bsw96abzv80FK2-NQf8PVRPFfini_vU'
+# token = ''
 # bot = TeleBot(token)
 
 
-# bot = TeleBot('499036171:AAGbG8NBwlj3NEJ1ug-SwPauyo4sWsLTvDg')
+# bot = TeleBot('')
 
 # SV19bot
-token = '499036171:AAGbG8NBwlj3NEJ1ug-SwPauyo4sWsLTvDg'
+token = ''
 bot = TeleBot(token)
 #
-# WEBHOOK_HOST = '194.67.217.180'
+# WEBHOOK_HOST = ''
 # WEBHOOK_PORT = 8443  # 443, 80, 88 или 8443 (порт должен быть открыт!)
 # LOCAL_PORT = 9001  #
 # LOCAL_LISTEN = '127.0.0.1'
-# WEBHOOK_LISTEN = '194.67.217.180'
+# WEBHOOK_LISTEN = ''
 #
 # # WEBHOOK_SSL_CERT = '/root/ssl/webhook_cert.pem'  # Путь к сертификату
 # WEBHOOK_SSL_CERT = '/home/iman/ssl/webhook_pkey.pem'  # Путь к сертификату

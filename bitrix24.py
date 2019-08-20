@@ -2,20 +2,20 @@ import requests
 import json
 import time
 
-proect_sv = 'proektsv.bitrix24.ru/rest/26/pcw309lfbp2d2d79'
+proect_sv = 't.bitrix24.ru/rest/26/pcw309lfbp2d2d79'
 # test = 'testjj.bitrix24.ru/rest/1/wczorpkc6n2spne0'
 
-url_deal_add = 'https://proektsv.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.deal.add.json/'
-url_deal_list = 'https://proektsv.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.deal.list/'
-url_deal_get = 'https://proektsv.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.deal.get/'
+url_deal_add = 'https://t.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.deal.add.json/'
+url_deal_list = 'https://t.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.deal.list/'
+url_deal_get = 'https://t.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.deal.get/'
 
-url_contact_add = 'https://proektsv.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.contact.add.json/'
-url_contact_list = 'https://proektsv.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.contact.list/'
+url_contact_add = 'https://t.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.contact.add.json/'
+url_contact_list = 'https://t.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.contact.list/'
 
-url_product_add = 'https://proektsv.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.product.add.json/'
-url_product_list = 'https://proektsv.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.product.list/'
+url_product_add = 'https://t.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.product.add.json/'
+url_product_list = 'https://t.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.product.list/'
 
-url_set_product = 'https://proektsv.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.deal.productrows.set.json/'
+url_set_product = 'https://t.bitrix24.ru/rest/26/pcw309lfbp2d2d79/crm.deal.productrows.set.json/'
 
 
 # url_deal_add = 'https://testjj.bitrix24.ru/rest/1/wczorpkc6n2spne0/crm.deal.add.json/'

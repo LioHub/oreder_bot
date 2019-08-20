@@ -25,8 +25,8 @@ from button import inline_replay_confirm
 from button import inline_comment_menu
 from button import inline_pre_payment_menu
 
-# provider_token = '390540012:LIVE:4167'
-provider_token = '390540012:LIVE:4565'  # - origin
+# provider_token = ''
+provider_token = ''  # - origin
 users = {}
 prices = {0: []}
 

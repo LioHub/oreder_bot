@@ -1,15 +1,7 @@
 import requests
 import json
-users = [226665834, 507185981, 167315364, 70025022, 27390261, 65472004, 334439551, 245919343]
-# , 34436430 - MuhammadBurdji
-# 108794197 - Abu_Fatimah
-# 2825803714
-# 259855747
-# 352074606
-# 400738456
-# 61140744
-# users = [226665834]
-# {'id': 507185981, 'is_bot': False, 'first_name': 'Свежая Вода. Доставка.', 'username': 'proektSV19'}
+users = []
+
 user_mes = {}
 
 def report(msg):

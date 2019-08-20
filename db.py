@@ -13,7 +13,7 @@ class MysqlPython(object):
     _connection = None
     _charset = None
 
-    def __init__(self, host='194.67.217.180', user='lion', password='230896', database='order_db', charset='utf8'):
+    def __init__(self, host='ip', user='lion', password='pass', database='dbname', charset='utf8'):
         self._host     = host
         self._user     = user
         self._password = password
@@ -168,5 +168,5 @@ class MysqlPython(object):
         return self._session.lastrowid
 
 
-connect_mysql = MysqlPython('194.67.217.180', 'lion', '230896', 'order_db', charset='utf8')
+connect_mysql = MysqlPython('ip', 'username', 'pass', 'dbname', charset='utf8')
 connect_mysql.open()
